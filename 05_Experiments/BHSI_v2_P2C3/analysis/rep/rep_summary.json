@@ -1,0 +1,335 @@
+{
+ "pooled_pair": {
+  "C|LEn": {
+   "n_px": 54821575,
+   "agreement": 0.4784907949105804,
+   "kappa": 0.30171539725508134,
+   "woody_agreement": 0.8007711380054294
+  },
+  "C|LEg": {
+   "n_px": 55733909,
+   "agreement": 0.6479417045734223,
+   "kappa": 0.4926700508194327,
+   "woody_agreement": 0.921085707446072
+  },
+  "LEn|LEg": {
+   "n_px": 54832696,
+   "agreement": 0.6273683861906042,
+   "kappa": 0.47121199246971035,
+   "woody_agreement": 0.8197316797992206
+  }
+ },
+ "pooled_partition": {
+  "AGREE_NATIVE_pct_land": 47.891051012767335,
+  "GRAIN_RESOLVED_pct_land": 22.238091639661537,
+  "GRAIN_INTRODUCED_pct_land": 5.206000028355936,
+  "RESID_STRUCTURAL_pct_land": 3.9209992661074504,
+  "RESID_OTHER_pct_land": 25.94985808146368,
+  "GRAIN_RESOLVED_pct_native_disagreement": 42.6761469418816,
+  "GRAIN_INTRODUCED_pct_native_disagreement": 9.990606468826439,
+  "RESID_STRUCTURAL_pct_native_disagreement": 7.52461782921038,
+  "RESID_OTHER_pct_native_disagreement": 49.799235228908024,
+  "NET_EXPLAINED_pct_native_disagreement": 32.685540473055156,
+  "n_px": 54732808
+ },
+ "pooled_composition": {
+  "C": {
+   "BLW_pct_land": 6.960695248340054,
+   "CON_pct_land": 1.45464236071685,
+   "SCR_pct_land": 0.5817225815898269,
+   "GRS_pct_land": 42.17375437337625,
+   "RGH_pct_land": 3.0437724900061043,
+   "WET_pct_land": 2.613359815172675,
+   "AGM_pct_land": 1.124283439895876,
+   "ARB_pct_land": 31.373562870798384,
+   "URB_pct_land": 7.386719694667918,
+   "URBVEG_pct_land": 2.6662847812000856,
+   "MIN_pct_land": 0.2282700722369236,
+   "COA_pct_land": 0.30708665848995803,
+   "BARE_pct_land": 0.08584561350909713,
+   "UNK_pct_land": 0.0,
+   "water_pct_buffer": 0.41097971327934446,
+   "nodata_pct_land": 0.0,
+   "woody_pct_land": 8.99706019064673,
+   "interval_categories_pct_land": 45.96432259447221
+  },
+  "LEn": {
+   "BLW_pct_land": 22.88283379337921,
+   "CON_pct_land": 1.6955175683391022,
+   "SCR_pct_land": 0.6859852779291371,
+   "GRS_pct_land": 45.49739118451671,
+   "RGH_pct_land": 3.7524335290525164,
+   "WET_pct_land": 9.601084795590793,
+   "AGM_pct_land": 0.0,
+   "ARB_pct_land": 11.73255332604759,
+   "URB_pct_land": 2.8523139707761307,
+   "URBVEG_pct_land": 0.0,
+   "MIN_pct_land": 0.0,
+   "COA_pct_land": 0.5561512470971717,
+   "BARE_pct_land": 0.16504503735495352,
+   "UNK_pct_land": 0.3642178047610272,
+   "water_pct_buffer": 1.6079875327055,
+   "nodata_pct_land": 0.21447246515566176,
+   "woody_pct_land": 25.26433663964745,
+   "interval_categories_pct_land": 45.49739118451671
+  },
+  "LEg": {
+   "BLW_pct_land": 10.160097557078027,
+   "CON_pct_land": 1.3962244508264037,
+   "SCR_pct_land": 0.02474842875860246,
+   "GRS_pct_land": 51.41300068665108,
+   "RGH_pct_land": 2.3037781089865534,
+   "WET_pct_land": 4.523675038849714,
+   "AGM_pct_land": 0.0,
+   "ARB_pct_land": 23.856487460361723,
+   "URB_pct_land": 5.609976472926908,
+   "URBVEG_pct_land": 0.0,
+   "MIN_pct_land": 0.0,
+   "COA_pct_land": 0.39591773739382263,
+   "BARE_pct_land": 0.05073570702373047,
+   "UNK_pct_land": 0.053659677472849825,
+   "water_pct_buffer": 0.3188017213367647,
+   "nodata_pct_land": 0.21169867367058148,
+   "woody_pct_land": 11.581070436663033,
+   "interval_categories_pct_land": 51.41300068665108
+  }
+ },
+ "pooled_px_total": 56198881,
+ "pooled_px_outside_catchment_polygons": 7585,
+ "water_subtypes": [
+  {
+   "arm": "C",
+   "RIVER_CHANNEL_pct_buffer": 0.37379747828075083,
+   "RIVER_CHANNEL_EXCLUDED_pct_buffer": 1.2455764021351244e-05,
+   "OTHER_INLAND_LAKE_pct_buffer": 0.02790447019754717,
+   "OTHER_INLAND_CANAL_pct_buffer": 0.0009074913786984478,
+   "COASTAL_TIDAL_pct_buffer": 0.005630005337650762,
+   "OTHER_INLAND_OFFNETWORK_pct_buffer": 0.0027278123206759225,
+   "all_water_pct_buffer": 0.41097971327934446
+  },
+  {
+   "arm": "LEn",
+   "RIVER_CHANNEL_pct_buffer": 1.4193467659969956,
+   "RIVER_CHANNEL_EXCLUDED_pct_buffer": 0.00216374414999473,
+   "OTHER_INLAND_LAKE_pct_buffer": 0.0755406499997749,
+   "OTHER_INLAND_CANAL_pct_buffer": 0.012012694701163179,
+   "COASTAL_TIDAL_pct_buffer": 0.0028932960426738745,
+   "OTHER_INLAND_OFFNETWORK_pct_buffer": 0.0960303818148977,
+   "all_water_pct_buffer": 1.6079875327055
+  },
+  {
+   "arm": "LEg",
+   "RIVER_CHANNEL_pct_buffer": 0.29620340661231315,
+   "RIVER_CHANNEL_EXCLUDED_pct_buffer": 0.0,
+   "OTHER_INLAND_LAKE_pct_buffer": 0.02128334192276889,
+   "OTHER_INLAND_CANAL_pct_buffer": 0.0006850670211743184,
+   "COASTAL_TIDAL_pct_buffer": 7.829337384849353e-05,
+   "OTHER_INLAND_OFFNETWORK_pct_buffer": 0.0005516124066598408,
+   "all_water_pct_buffer": 0.3188017213367647
+  }
+ ],
+ "reach_level": {
+  "C": {
+   "zero_land_reaches": 90,
+   "zero_land_km": 13.60321345171193,
+   "RW_flag_pct_len": 0.08479819481138651,
+   "unknown_pct_land_lenw": 0.0,
+   "nocov_gt50pct_land_pct_len": 0.0,
+   "woody_lenw_mean_pct": 8.965583252073314,
+   "interval_width_lenw_mean": 0.18748047239688131,
+   "pct_len_interval_width_ge_0.2": 46.27168031222421,
+   "s_lo_lenw_mean": 0.18250950794862272,
+   "s_lo_lenw_quantiles_10_25_50_75_90": [
+    0.06498905908096281,
+    0.09999999999999999,
+    0.1,
+    0.15674603174603174,
+    0.5
+   ],
+   "s_lo_pct_len_at_0": 3.0280481759571907,
+   "s_lo_pct_len_at_1": 0.6374730538319942,
+   "s_hi_lenw_mean": 0.36998998034550407,
+   "s_hi_lenw_quantiles_10_25_50_75_90": [
+    0.1,
+    0.18490679494888757,
+    0.3969043478260869,
+    0.5,
+    0.5574917022285444
+   ],
+   "s_hi_pct_len_at_0": 1.3640924677352373,
+   "s_hi_pct_len_at_1": 0.6374730538319942,
+   "within_source_lo_hi_spearman": 0.6271945835800202
+  },
+  "LEn": {
+   "zero_land_reaches": 8,
+   "zero_land_km": 1.2721793782954014,
+   "RW_flag_pct_len": 0.14708493532359465,
+   "unknown_pct_land_lenw": 0.53148355942003,
+   "nocov_gt50pct_land_pct_len": 0.10284723093344762,
+   "woody_lenw_mean_pct": 25.70573838961971,
+   "interval_width_lenw_mean": 0.19039269701114847,
+   "pct_len_interval_width_ge_0.2": 46.255346125345376,
+   "s_lo_lenw_mean": 0.3658130185650054,
+   "s_lo_lenw_quantiles_10_25_50_75_90": [
+    0.11020554066130474,
+    0.16713124274099886,
+    0.312590239676581,
+    0.5081044876088413,
+    0.718463810930576
+   ],
+   "s_lo_pct_len_at_0": 0.12053273855111768,
+   "s_lo_pct_len_at_1": 0.2619382708442059,
+   "s_hi_lenw_mean": 0.5562057155761538,
+   "s_hi_lenw_quantiles_10_25_50_75_90": [
+    0.33504,
+    0.46608832807570977,
+    0.5273405136702568,
+    0.6669322709163347,
+    0.8108187134502924
+   ],
+   "s_hi_pct_len_at_0": 0.060550501771127994,
+   "s_hi_pct_len_at_1": 0.31686341606344004,
+   "within_source_lo_hi_spearman": 0.7614843417269382
+  },
+  "LEg": {
+   "zero_land_reaches": 55,
+   "zero_land_km": 8.577203987001623,
+   "RW_flag_pct_len": 0.03421735683082025,
+   "unknown_pct_land_lenw": 0.19608337876725399,
+   "nocov_gt50pct_land_pct_len": 0.0781794959338734,
+   "woody_lenw_mean_pct": 11.599373191850253,
+   "interval_width_lenw_mean": 0.2105989833127482,
+   "pct_len_interval_width_ge_0.2": 52.56161362050739,
+   "s_lo_lenw_mean": 0.21652148703176508,
+   "s_lo_lenw_quantiles_10_25_50_75_90": [
+    0.09720831728917982,
+    0.1,
+    0.1,
+    0.24517543859649124,
+    0.5225792988313857
+   ],
+   "s_lo_pct_len_at_0": 1.1359247645011337,
+   "s_lo_pct_len_at_1": 1.4601475522616891,
+   "s_hi_lenw_mean": 0.4271204703445132,
+   "s_hi_lenw_quantiles_10_25_50_75_90": [
+    0.11507607192254496,
+    0.2718440954043048,
+    0.48957771787960463,
+    0.5,
+    0.6781002638522428
+   ],
+   "s_hi_pct_len_at_0": 0.9423196872294793,
+   "s_hi_pct_len_at_1": 1.5345750209006515,
+   "within_source_lo_hi_spearman": 0.5573215164478853
+  },
+  "C|LEn": {
+   "reach_agreement_lenw_mean": 0.47283522979939274,
+   "reach_woody_agreement_lenw_mean": 0.795449468649064
+  },
+  "C|LEg": {
+   "reach_agreement_lenw_mean": 0.6469209167134278,
+   "reach_woody_agreement_lenw_mean": 0.9205102505551648
+  },
+  "LEn|LEg": {
+   "reach_agreement_lenw_mean": 0.6216029924828362
+  }
+ },
+ "variance_decomposition": {
+  "C_lo": {
+   "between_catchment_share": 0.12728278681861793,
+   "catchment_mean_range": [
+    0.0,
+    0.547039352067131
+   ]
+  },
+  "C_hi": {
+   "between_catchment_share": 0.24674396629667056,
+   "catchment_mean_range": [
+    0.1174011152079186,
+    0.6454761970659566
+   ]
+  },
+  "LEn_lo": {
+   "between_catchment_share": 0.25588265045582265,
+   "catchment_mean_range": [
+    0.15820380188804717,
+    0.6122747437581475
+   ]
+  },
+  "LEn_hi": {
+   "between_catchment_share": 0.24528511944845066,
+   "catchment_mean_range": [
+    0.3096413746319468,
+    0.7136847454112084
+   ]
+  },
+  "LEg_lo": {
+   "between_catchment_share": 0.15191731389523627,
+   "catchment_mean_range": [
+    0.05880417192144909,
+    0.4325766111564706
+   ]
+  },
+  "LEg_hi": {
+   "between_catchment_share": 0.2511971724199318,
+   "catchment_mean_range": [
+    0.1134858638684112,
+    0.6120699751250086
+   ]
+  },
+  "C_woody": {
+   "between_catchment_share": 0.09913356649923055,
+   "catchment_mean_range": [
+    0.0,
+    0.4677189255873299
+   ]
+  },
+  "LEn_woody": {
+   "between_catchment_share": 0.16354584900713623,
+   "catchment_mean_range": [
+    0.03406611921783974,
+    0.5146211615712996
+   ]
+  },
+  "LEg_woody": {
+   "between_catchment_share": 0.11079201095976737,
+   "catchment_mean_range": [
+    9.558047983346691e-05,
+    0.3498417438173576
+   ]
+  }
+ },
+ "catchment_spread": {
+  "agree_C_LEn": {
+   "min": 0.1503201024327785,
+   "median": 0.4693876276556327,
+   "max": 0.6380284106390207
+  },
+  "agree_C_LEg": {
+   "min": 0.2606503655155029,
+   "median": 0.639918104395805,
+   "max": 0.8463867656290388
+  },
+  "woody_pct_C": {
+   "min": 0.0,
+   "median": 5.864489683805741,
+   "max": 45.97925260516993
+  },
+  "woody_pct_LEg": {
+   "min": 0.012374487342667233,
+   "median": 8.600244498777506,
+   "max": 34.427141018685006
+  },
+  "woody_pct_LEn": {
+   "min": 3.558206222485494,
+   "median": 24.917263973657516,
+   "max": 50.684741947536175
+  },
+  "grain_net_explained_pct": {
+   "min": 7.676437933948663,
+   "median": 31.16942035407567,
+   "max": 76.10985460420032
+  }
+ },
+ "catchments_grain_net_negative": 0
+}

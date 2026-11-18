@@ -1,0 +1,38 @@
+{
+ "rule": "p2c2_01_select_pilot.py header",
+ "n_catchments": 107,
+ "n_pass_h1": 101,
+ "n_pass_h1_h5": 5,
+ "n_pass_all": 4,
+ "chosen_CaBA_ID": 19,
+ "chosen_name": "Derbyshire Derwent",
+ "chosen_row": {
+  "CaBA_ID": 19,
+  "CaBA_Catch": "Derbyshire Derwent",
+  "eligible_km": 749.983999,
+  "eligible_share_pct": 91.517243,
+  "catchment_area_km2": 1444.733611,
+  "km_wales": 0.0,
+  "km_england_tidal": 0.0,
+  "km_outside_england_wales": 0.0,
+  "le_nocov_pct_random_points": 0.0,
+  "le_nocov_pct_midpoints": 0.0,
+  "woody_pct": 13.29299578957644,
+  "grass_pct": 39.44162168773037,
+  "agri_pct": 17.398122638932477,
+  "shannon_corine_categories": 1.834053907807377,
+  "h1": true,
+  "h2": true,
+  "h3": true,
+  "h4": true,
+  "h5": true,
+  "h6": true,
+  "passes_all": true
+ },
+ "runner_up": {
+  "CaBA_ID": "109",
+  "CaBA_Catch": "Yorkshire Derwent",
+  "shannon_corine_categories": "1.48211242414719"
+ },
+ "script_sha256": "5fe6daf702b65a9310cb4a5be5ae554831bfc7956125e8760b526619cb22fd7b"
+}

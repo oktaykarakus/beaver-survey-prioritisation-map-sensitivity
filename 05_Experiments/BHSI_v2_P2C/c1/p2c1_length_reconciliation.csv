@@ -1,0 +1,14 @@
+stage,component,km,pct_of_phase1_network,p2b_midpoint_reference_km,difference_km,difference_pct_of_reference,note
+0 input,"Phase 1 canonical network (94,162 pieces)",82669.765366,100.0,82669.765366,-0.0,-0.0,from native_001 gpkg; reference is the P2-B total
+1 after geometric split,sum of all fragments,82669.765366,100.0,82669.765366,-0.0,-0.0,conservation: must equal input
+1 country split,England,75851.510806,91.752421,,,,England has precedence on the shared border
+1 country split,Wales,3731.01908,4.51316,3741.676139,-10.657059,-0.28482,England has precedence on the shared border
+1 country split,Outside England and Wales (seaward of MHW / other),3087.23548,3.734419,,,,England has precedence on the shared border
+2 England by OS form,England | inlandRiver,71630.568286,86.646633,71632.667286,-2.098999,-0.00293,
+2 England by OS form,England | tidalRiver,95.046031,0.114971,86.496045,8.549986,9.884828,
+2 England by OS form,England | canal,2383.831106,2.883559,2382.331785,1.499321,0.062935,
+2 England by OS form,England | lake,1742.065383,2.107258,1742.086795,-0.021413,-0.001229,
+3 catchment threshold,"England inlandRiver in catchments <10 km (excluded, CATCH_BELOW_MIN)",0.704767,0.000853,,,,"Humber Estuary, Your Tidal Thames"
+4 result,ELIGIBLE network,71629.863519,86.645781,71632.667286,-2.803766,-0.003914,"verification reference, not a target"
+4 result,EXCLUDED network (all reasons),11039.901847,13.354219,11037.09808,2.803766,0.025403,
+4 result,eligible + excluded,82669.765366,100.0,82669.765366,-0.0,-0.0,conservation

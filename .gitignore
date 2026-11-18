@@ -1,0 +1,42 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Temporary and partial outputs written by the pipeline (e.g. tile .tmp.npz written before an atomic rename)
+*.tmp
+*.tmp.npz
+*.log
+tmp/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Large raw third-party inputs (obtain from the providers; see DATA_SOURCES.md)
+05_Experiments/BHSI_v2_P2A/data_raw/
+05_Experiments/BHSI_v2_P2A/derived/
+05_Experiments/BHSI_v2_P2B/data_raw/
+01_BHSI_v1_Frozen/source_snapshot/data/Rivers/
+01_BHSI_v1_Frozen/source_snapshot/data/**/*.tif
+01_BHSI_v1_Frozen/source_snapshot/data/**/U2018_CLC2018_V2020_20u1.gpkg
+*.gpkg.zip
+
+# Not public (see DATA_SOURCES.md, section 6)
+05_Experiments/P1_5_Portability/
+
+# Optional determinism-check output of the overlay driver
+05_Experiments/BHSI_v2_P2C3/preflight/determinism_*.npz

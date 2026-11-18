@@ -1,0 +1,12 @@
+Allocation script rerun (18 Nov 2026) from copies of the same parquet inputs, compared with cmp:
+P2C3_CROSS_SCENARIO_REGRET.csv identical
+P2C3_ALLOCATION_RESULTS.csv identical
+selected_km_by_catchment.csv identical
+replaced_fraction_matrix_5pct.csv identical
+catchment_bootstrap_5pct.csv identical
+jackknife_5pct.csv identical
+nulls_5pct.json identical
+robustness_5pct.csv identical
+materiality.csv identical
+summary identical excl. seconds True
+allocation vectors identical True

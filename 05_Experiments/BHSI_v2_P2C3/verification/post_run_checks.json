@@ -1,0 +1,31 @@
+{
+ "ids_reach_table_eq_allocations": true,
+ "ids_B20_eq_reach_table": true,
+ "ids_B100_eq_reach_table": true,
+ "ids_S1000_fragments_eq_reach_table": true,
+ "ids_S500_fragments_eq_reach_table": true,
+ "regret_rows": 378,
+ "regret_rows_expected": 378,
+ "regret_complete": true,
+ "allocation_rows": 66,
+ "scores_present": {
+  "C_lo": 0.9988170657974291,
+  "C_hi": 0.9988170657974291,
+  "LEg_lo": 0.9992770957650956,
+  "LEg_hi": 0.9992770957650956,
+  "LEn_lo": 0.9998948502931048,
+  "LEn_hi": 0.9998948502931048
+ },
+ "budget_max_abs_dev_km_5pct_vectors": 1.9092112779617308e-10,
+ "budget_max_abs_dev_km_csv": 0.0,
+ "budget_ok": true,
+ "x_in_unit_interval": true,
+ "independent_regret_max_abs_diff": 4.781213604476697e-07,
+ "independent_vector_max_abs_diff": 0.0,
+ "independent_ok": true,
+ "diagonal_A1_capture_is_1": true,
+ "offdiag_regret_nonnegative": true,
+ "capture_le_1_all": true,
+ "replaced_in_0_1": true,
+ "all_ok": true
+}

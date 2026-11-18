@@ -1,0 +1,33 @@
+{
+ "chosen": {
+  "P1_cross_border": 107,
+  "P2_internal_boundary": 99,
+  "P3_coastal_edge": 13
+ },
+ "names": {
+  "P1_cross_border": "Wye",
+  "P2_internal_boundary": "Welland",
+  "P3_coastal_edge": "Combined Essex"
+ },
+ "metrics": {
+  "P1_cross_border": {
+   "km_near_border": 89.331,
+   "km_near_other_catchment": 0.0,
+   "km_near_tidal": 10.429,
+   "eligible_km": 1123.083
+  },
+  "P2_internal_boundary": {
+   "km_near_border": 0.0,
+   "km_near_other_catchment": 15.396,
+   "km_near_tidal": 16.679,
+   "eligible_km": 728.502
+  },
+  "P3_coastal_edge": {
+   "km_near_border": 0.0,
+   "km_near_other_catchment": 2.322,
+   "km_near_tidal": 184.47,
+   "eligible_km": 1534.35
+  }
+ },
+ "reproducibility_case": 19
+}

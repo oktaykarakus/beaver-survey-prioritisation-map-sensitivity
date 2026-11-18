@@ -1,0 +1,231 @@
+{
+ "tiles": {
+  "t005_000": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    42.19693,
+    0.52791,
+    0.15952,
+    0.01398,
+    0.03133,
+    0.0004
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 181,
+   "reach_LEg_counts_changed": 0
+  },
+  "t005_002": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    39.43225,
+    0.52336,
+    0.14412,
+    0.0176,
+    0.01097,
+    0.0005
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 1650,
+   "reach_LEg_counts_changed": 14
+  },
+  "t006_009": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    30.11238,
+    0.57363,
+    0.12289,
+    0.03493,
+    0.01302,
+    0.00064
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 1575,
+   "reach_LEg_counts_changed": 6
+  },
+  "t007_008": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    29.15188,
+    0.50165,
+    0.12253,
+    0.02913,
+    0.01109,
+    0.00043
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 2523,
+   "reach_LEg_counts_changed": 12
+  },
+  "t007_009": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    21.00525,
+    0.38312,
+    0.07215,
+    0.0241,
+    0.0203,
+    0.00198
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 2782,
+   "reach_LEg_counts_changed": 17
+  },
+  "t012_004": {
+   "cycles_total": 6,
+   "cycle_changes_pct": [
+    29.24602,
+    0.58661,
+    0.11501,
+    0.06089,
+    0.01191,
+    0.00037
+   ],
+   "converged": true,
+   "cycles_1_to_5_reproduce_p2c3": true,
+   "reaches": 576,
+   "reach_LEg_counts_changed": 3
+  }
+ },
+ "score_change": {
+  "lo": {
+   "reaches_changed": 38,
+   "max_abs": 0.006521739130434745,
+   "lenw_mean_abs_affected_tiles": 3.4653411028289957e-06,
+   "pct_len_affected_tiles_gt_0.01": 0.0
+  },
+  "hi": {
+   "reaches_changed": 28,
+   "max_abs": 0.0049261083743842304,
+   "lenw_mean_abs_affected_tiles": 2.594908286745886e-06,
+   "pct_len_affected_tiles_gt_0.01": 0.0
+  }
+ },
+ "budget_1": {
+  "p2c3": {
+   "D_R": 0.703365857420792,
+   "D_A": 0.04143327290854415,
+   "D_G": 0.6202838149740473,
+   "persistence": 1.0744718465793033,
+   "regret_C_lo_to_LEg_lo": 0.2470603327772456,
+   "regret_LEg_lo_to_C_lo": 0.4647334124654464,
+   "regret_C_hi_to_LEg_hi": 0.23042955103803342,
+   "regret_LEg_hi_to_C_hi": 0.4356292286562752,
+   "core_share": 0.2792508614380306
+  },
+  "continued": {
+   "D_R": 0.703365857420792,
+   "D_A": 0.04143327290854415,
+   "D_G": 0.6202838149740473,
+   "persistence": 1.0744718465793033,
+   "regret_C_lo_to_LEg_lo": 0.24706312677484954,
+   "regret_LEg_lo_to_C_lo": 0.4647334124654464,
+   "regret_C_hi_to_LEg_hi": 0.23043099545151946,
+   "regret_LEg_hi_to_C_hi": 0.4356292286562752,
+   "core_share": 0.2792508614380306
+  },
+  "abs_diff": {
+   "D_R": 0.0,
+   "D_A": 0.0,
+   "D_G": 0.0,
+   "persistence": 0.0,
+   "regret_C_lo_to_LEg_lo": 2.793997603944831e-06,
+   "regret_LEg_lo_to_C_lo": 0.0,
+   "regret_C_hi_to_LEg_hi": 1.4444134860402968e-06,
+   "regret_LEg_hi_to_C_hi": 0.0,
+   "core_share": 0.0
+  },
+  "LEg_lo_allocation_replaced_fraction_p2c3_vs_continued": 9.992007221626409e-16,
+  "LEg_hi_allocation_replaced_fraction_p2c3_vs_continued": -2.220446049250313e-16
+ },
+ "budget_5": {
+  "p2c3": {
+   "D_R": 0.4700407840369155,
+   "D_A": 0.08736300018794824,
+   "D_G": 0.35642470633837736,
+   "persistence": 0.8896662828540559,
+   "regret_C_lo_to_LEg_lo": 0.30262020160174186,
+   "regret_LEg_lo_to_C_lo": 0.40106747442478485,
+   "regret_C_hi_to_LEg_hi": 0.28772313120461335,
+   "regret_LEg_hi_to_C_hi": 0.3622035218786396,
+   "core_share": 0.48031905132723884
+  },
+  "continued": {
+   "D_R": 0.4700407840369155,
+   "D_A": 0.08736300018794824,
+   "D_G": 0.35642470633837736,
+   "persistence": 0.8896662828540559,
+   "regret_C_lo_to_LEg_lo": 0.3026228067047255,
+   "regret_LEg_lo_to_C_lo": 0.40106747442478485,
+   "regret_C_hi_to_LEg_hi": 0.2877249739739062,
+   "regret_LEg_hi_to_C_hi": 0.3622035218786396,
+   "core_share": 0.48031905132723884
+  },
+  "abs_diff": {
+   "D_R": 0.0,
+   "D_A": 0.0,
+   "D_G": 0.0,
+   "persistence": 0.0,
+   "regret_C_lo_to_LEg_lo": 2.6051029836660078e-06,
+   "regret_LEg_lo_to_C_lo": 0.0,
+   "regret_C_hi_to_LEg_hi": 1.8427692928257855e-06,
+   "regret_LEg_hi_to_C_hi": 0.0,
+   "core_share": 0.0
+  },
+  "LEg_lo_allocation_replaced_fraction_p2c3_vs_continued": -1.9984014443252818e-15,
+  "LEg_hi_allocation_replaced_fraction_p2c3_vs_continued": -1.1102230246251565e-15
+ },
+ "budget_10": {
+  "p2c3": {
+   "D_R": 0.4539200327375812,
+   "D_A": 0.21516294191849417,
+   "D_G": 0.3583433794921702,
+   "persistence": 0.8372768131239612,
+   "regret_C_lo_to_LEg_lo": 0.3405215204110418,
+   "regret_LEg_lo_to_C_lo": 0.387133194253965,
+   "regret_C_hi_to_LEg_hi": 0.2955551390997515,
+   "regret_LEg_hi_to_C_hi": 0.3275165721747739,
+   "core_share": 0.4507648141847916
+  },
+  "continued": {
+   "D_R": 0.4539200327375812,
+   "D_A": 0.21516294191849417,
+   "D_G": 0.3583433794921702,
+   "persistence": 0.8372768131239612,
+   "regret_C_lo_to_LEg_lo": 0.3405222881105209,
+   "regret_LEg_lo_to_C_lo": 0.387133194253965,
+   "regret_C_hi_to_LEg_hi": 0.2955564047461616,
+   "regret_LEg_hi_to_C_hi": 0.3275165721747739,
+   "core_share": 0.4507648141847916
+  },
+  "abs_diff": {
+   "D_R": 0.0,
+   "D_A": 0.0,
+   "D_G": 0.0,
+   "persistence": 0.0,
+   "regret_C_lo_to_LEg_lo": 7.676994790983827e-07,
+   "regret_LEg_lo_to_C_lo": 0.0,
+   "regret_C_hi_to_LEg_hi": 1.2656464101201692e-06,
+   "regret_LEg_hi_to_C_hi": 0.0,
+   "core_share": 0.0
+  },
+  "LEg_lo_allocation_replaced_fraction_p2c3_vs_continued": -4.440892098500626e-15,
+  "LEg_hi_allocation_replaced_fraction_p2c3_vs_continued": -4.440892098500626e-16
+ },
+ "cutoff_LEg_lo": {
+  "cutoff_score": 0.779076479076479,
+  "affected_reaches_whose_change_spans_cutoff": 0,
+  "their_km": 0.0,
+  "pct_of_budget_selected_in_affected_tiles": 16.1537197334854
+ },
+ "cutoff_LEg_hi": {
+  "cutoff_score": 0.8490813648293963,
+  "affected_reaches_whose_change_spans_cutoff": 0,
+  "their_km": 0.0,
+  "pct_of_budget_selected_in_affected_tiles": 16.930491572972656
+ }
+}

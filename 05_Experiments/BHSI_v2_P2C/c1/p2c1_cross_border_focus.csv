@@ -1,0 +1,6 @@
+CaBA_ID,CaBA_Catch,phase1_total_km,km_wales,p2b_midpoint_wales_km,wales_clip_minus_midpoint_km,km_england_inland_river,p2b_midpoint_england_inland_km,clip_minus_midpoint_km,eligible_km,eligible_share_pct,status
+51,Middle Dee,516.143,373.755,364.18,9.575,125.882,135.27,-9.388,125.882,24.389,ELIGIBLE_PARTIAL (<50% of network)
+69,Severn Uplands,1967.941,1473.365,1483.79,-10.425,484.148,473.28,10.868,484.148,24.602,ELIGIBLE_PARTIAL (<50% of network)
+82,Teme,1093.858,81.989,84.09,-2.101,1001.222,999.12,2.102,1001.222,91.531,ELIGIBLE
+85,Tidal Dee,272.74,117.555,118.13,-0.575,35.097,33.21,1.887,35.097,12.868,ELIGIBLE_PARTIAL (<50% of network)
+107,Wye,2831.845,1673.742,1675.91,-2.168,1123.083,1120.87,2.213,1123.083,39.659,ELIGIBLE_PARTIAL (<50% of network)

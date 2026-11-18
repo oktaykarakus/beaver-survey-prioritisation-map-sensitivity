@@ -1,0 +1,117 @@
+arm,level,key,name,model_category,water_sub,is_interval,lo,hi,pooled_area_ha,pct_of_buffer_area,pct_of_land
+C,native_class,111,Continuous urban fabric,URB,,False,0.0,0.0,12.12,0.20519,0.20643
+C,native_class,112,Discontinuous urban fabric,URB,,False,0.0,0.0,422.38,7.15084,7.19415
+C,native_class,121,Industrial or commercial units,URB,,False,0.0,0.0,73.21,1.23944,1.24694
+C,native_class,122,Road and rail networks and associated land,URB,,False,0.0,0.0,18.54,0.31388,0.31578
+C,native_class,131,Mineral extraction sites,MIN,,False,0.0,0.0,30.99,0.52466,0.52783
+C,native_class,133,Construction sites,MIN,,False,0.0,0.0,1.16,0.01964,0.01976
+C,native_class,141,Green urban areas,URBVEG,,True,0.0,0.5,63.08,1.06794,1.0744
+C,native_class,142,Sport and leisure facilities,URBVEG,,True,0.0,0.5,126.4,2.13994,2.1529
+C,native_class,211,Non-irrigated arable land,ARB,,False,0.1,0.1,963.17,16.30634,16.40511
+C,native_class,231,"Pastures, meadows and other permanent grasslands under agricultural use",GRS,,True,0.1,0.5,2236.02,37.85553,38.08481
+C,native_class,243,Agriculture with significant areas of natural vegetation,AGM,,True,0.1,0.5,98.5,1.66759,1.67769
+C,native_class,311,Broad-leaved forest,BLW,,False,1.0,1.0,437.19,7.40157,7.4464
+C,native_class,312,Coniferous forest,CON,,False,0.5,0.5,144.37,2.44417,2.45897
+C,native_class,313,Mixed forest,BLW,,False,1.0,1.0,105.16,1.78035,1.79113
+C,native_class,321,Natural grasslands,GRS,,True,0.1,0.5,153.1,2.59196,2.60766
+C,native_class,322,Moors and heathland,RGH,,False,0.5,0.5,531.43,8.99704,9.05153
+C,native_class,324,Transitional woodland-shrub,SCR,,False,0.5,0.5,8.6,0.1456,0.14648
+C,native_class,411,Inland marshes,WET,,False,0.5,0.5,20.22,0.34232,0.3444
+C,native_class,412,Peat bogs,WET,,False,0.5,0.5,425.52,7.204,7.24763
+C,native_class,512,Water bodies,WATER,WATER_OTHER_INLAND,False,,,35.56,0.60203,
+C,model_category,BLW,BLW,BLW,,False,,,542.35,9.18191,9.23753
+C,model_category,CON,CON,CON,,False,,,144.37,2.44417,2.45897
+C,model_category,SCR,SCR,SCR,,False,,,8.6,0.1456,0.14648
+C,model_category,GRS,GRS,GRS,,True,,,2389.12,40.44749,40.69247
+C,model_category,RGH,RGH,RGH,,False,,,531.43,8.99704,9.05153
+C,model_category,WET,WET,WET,,False,,,445.74,7.54632,7.59203
+C,model_category,AGM,AGM,AGM,,True,,,98.5,1.66759,1.67769
+C,model_category,ARB,ARB,ARB,,False,,,963.17,16.30634,16.40511
+C,model_category,URB,URB,URB,,False,,,526.25,8.90934,8.96331
+C,model_category,URBVEG,URBVEG,URBVEG,,True,,,189.48,3.20787,3.2273
+C,model_category,MIN,MIN,MIN,,False,,,32.15,0.5443,0.54759
+C,model_category,WATER,WATER,WATER,,False,,,35.56,0.60203,
+C,model_category_reach_length_weighted_mean,BLW,BLW,BLW,,False,,,,,9.0241
+C,model_category_reach_length_weighted_mean,CON,CON,CON,,False,,,,,2.41943
+C,model_category_reach_length_weighted_mean,SCR,SCR,SCR,,False,,,,,0.14993
+C,model_category_reach_length_weighted_mean,GRS,GRS,GRS,,True,,,,,40.92696
+C,model_category_reach_length_weighted_mean,RGH,RGH,RGH,,False,,,,,9.16311
+C,model_category_reach_length_weighted_mean,WET,WET,WET,,False,,,,,7.5948
+C,model_category_reach_length_weighted_mean,AGM,AGM,AGM,,True,,,,,1.69924
+C,model_category_reach_length_weighted_mean,ARB,ARB,ARB,,False,,,,,16.46859
+C,model_category_reach_length_weighted_mean,URB,URB,URB,,False,,,,,8.85363
+C,model_category_reach_length_weighted_mean,URBVEG,URBVEG,URBVEG,,True,,,,,3.12241
+C,model_category_reach_length_weighted_mean,MIN,MIN,MIN,,False,,,,,0.57781
+C,model_category_reach_length_weighted_mean,COA,COA,COA,,False,,,,,0.0
+C,model_category_reach_length_weighted_mean,BARE,BARE,BARE,,False,,,,,0.0
+C,model_category_reach_length_weighted_mean,UNK,UNK,UNK,,False,,,,,0.0
+LEn,native_class,"Broadleaved, Mixed and Yew Woodland","Broadleaved, Mixed and Yew Woodland",BLW,,False,1.0,1.0,1893.39,32.05485,33.18174
+LEn,native_class,Coniferous Woodland,Coniferous Woodland,CON,,False,0.5,0.5,132.54,2.24388,2.32277
+LEn,native_class,"Acid, Calcareous, Neutral Grassland","Acid, Calcareous, Neutral Grassland",GRS,,True,0.1,0.5,1813.79,30.70723,31.78675
+LEn,native_class,Improved Grassland,Improved Grassland,GRS,,True,0.1,0.5,155.15,2.62667,2.71901
+LEn,native_class,Bracken,Bracken,RGH,,True,0.1,0.5,240.41,4.07011,4.2132
+LEn,native_class,Dwarf Shrub Heath,Dwarf Shrub Heath,RGH,,False,0.5,0.5,576.24,9.75567,10.09863
+LEn,native_class,Arable and Horticultural,Arable and Horticultural,ARB,,False,0.1,0.1,190.78,3.22988,3.34343
+LEn,native_class,"Fen, Marsh and Swamp","Fen, Marsh and Swamp",WET,,False,0.5,0.5,437.44,7.4058,7.66615
+LEn,native_class,Bog,Bog,WET,,False,0.5,0.5,97.44,1.64965,1.70764
+LEn,native_class,Water,Water,WATER,WATER_UNDIFFERENTIATED,False,,,200.6,3.39613,
+LEn,native_class,Built-up Areas and Gardens,Built-up Areas and Gardens,URB,,False,0.0,0.0,159.56,2.70133,2.7963
+LEn,native_class,Bare Ground,Bare Ground,BARE,,False,0.0,0.0,1.2,0.02032,0.02103
+LEn,native_class,Unclassified,Unclassified,UNK,,False,0.0,1.0,8.18,0.13849,0.14335
+LEn,model_category,BLW,BLW,BLW,,False,,,1893.39,32.05485,33.18174
+LEn,model_category,CON,CON,CON,,False,,,132.54,2.24388,2.32277
+LEn,model_category,GRS,GRS,GRS,,True,,,1968.94,33.3339,34.50576
+LEn,model_category,RGH,RGH,RGH,,False,,,816.65,13.82578,14.31183
+LEn,model_category,WET,WET,WET,,False,,,534.88,9.05545,9.3738
+LEn,model_category,ARB,ARB,ARB,,False,,,190.78,3.22988,3.34343
+LEn,model_category,URB,URB,URB,,False,,,159.56,2.70133,2.7963
+LEn,model_category,BARE,BARE,BARE,,False,,,1.2,0.02032,0.02103
+LEn,model_category,UNK,UNK,UNK,,False,,,8.18,0.13849,0.14335
+LEn,model_category,WATER,WATER,WATER,,False,,,200.6,3.39613,
+LEn,model_category_reach_length_weighted_mean,BLW,BLW,BLW,,False,,,,,33.3349
+LEn,model_category_reach_length_weighted_mean,CON,CON,CON,,False,,,,,2.23251
+LEn,model_category_reach_length_weighted_mean,SCR,SCR,SCR,,False,,,,,0.0
+LEn,model_category_reach_length_weighted_mean,GRS,GRS,GRS,,True,,,,,34.77158
+LEn,model_category_reach_length_weighted_mean,RGH,RGH,RGH,,False,,,,,13.84781
+LEn,model_category_reach_length_weighted_mean,WET,WET,WET,,False,,,,,9.64257
+LEn,model_category_reach_length_weighted_mean,AGM,AGM,AGM,,True,,,,,0.0
+LEn,model_category_reach_length_weighted_mean,ARB,ARB,ARB,,False,,,,,3.25931
+LEn,model_category_reach_length_weighted_mean,URB,URB,URB,,False,,,,,2.7296
+LEn,model_category_reach_length_weighted_mean,URBVEG,URBVEG,URBVEG,,True,,,,,0.0
+LEn,model_category_reach_length_weighted_mean,MIN,MIN,MIN,,False,,,,,0.0
+LEn,model_category_reach_length_weighted_mean,COA,COA,COA,,False,,,,,0.0
+LEn,model_category_reach_length_weighted_mean,BARE,BARE,BARE,,False,,,,,0.0219
+LEn,model_category_reach_length_weighted_mean,UNK,UNK,UNK,,False,,,,,0.15983
+LEg,native_class,"Broadleaved, Mixed and Yew Woodland","Broadleaved, Mixed and Yew Woodland",BLW,,False,1.0,1.0,835.73,14.1488,14.2619
+LEg,native_class,Coniferous Woodland,Coniferous Woodland,CON,,False,0.5,0.5,113.65,1.92408,1.93946
+LEg,native_class,"Acid, Calcareous, Neutral Grassland","Acid, Calcareous, Neutral Grassland",GRS,,True,0.1,0.5,3145.21,53.248,53.67362
+LEg,native_class,Improved Grassland,Improved Grassland,GRS,,True,0.1,0.5,92.36,1.56364,1.57614
+LEg,native_class,Bracken,Bracken,RGH,,True,0.1,0.5,127.96,2.16635,2.18366
+LEg,native_class,Dwarf Shrub Heath,Dwarf Shrub Heath,RGH,,False,0.5,0.5,670.77,11.35605,11.44682
+LEg,native_class,Arable and Horticultural,Arable and Horticultural,ARB,,False,0.1,0.1,465.36,7.87848,7.94146
+LEg,native_class,"Fen, Marsh and Swamp","Fen, Marsh and Swamp",WET,,False,0.5,0.5,31.11,0.52669,0.5309
+LEg,native_class,Bog,Bog,WET,,False,0.5,0.5,101.91,1.72532,1.73911
+LEg,native_class,Water,Water,WATER,WATER_UNDIFFERENTIATED,False,,,46.84,0.793,
+LEg,native_class,Built-up Areas and Gardens,Built-up Areas and Gardens,URB,,False,0.0,0.0,275.82,4.6696,4.70692
+LEg,model_category,BLW,BLW,BLW,,False,,,835.73,14.1488,14.2619
+LEg,model_category,CON,CON,CON,,False,,,113.65,1.92408,1.93946
+LEg,model_category,GRS,GRS,GRS,,True,,,3237.57,54.81164,55.24977
+LEg,model_category,RGH,RGH,RGH,,False,,,798.73,13.52239,13.63048
+LEg,model_category,WET,WET,WET,,False,,,133.02,2.25201,2.27001
+LEg,model_category,ARB,ARB,ARB,,False,,,465.36,7.87848,7.94146
+LEg,model_category,URB,URB,URB,,False,,,275.82,4.6696,4.70692
+LEg,model_category,WATER,WATER,WATER,,False,,,46.84,0.793,
+LEg,model_category_reach_length_weighted_mean,BLW,BLW,BLW,,False,,,,,14.02206
+LEg,model_category_reach_length_weighted_mean,CON,CON,CON,,False,,,,,1.91371
+LEg,model_category_reach_length_weighted_mean,SCR,SCR,SCR,,False,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,GRS,GRS,GRS,,True,,,,,55.46832
+LEg,model_category_reach_length_weighted_mean,RGH,RGH,RGH,,False,,,,,13.56003
+LEg,model_category_reach_length_weighted_mean,WET,WET,WET,,False,,,,,2.30094
+LEg,model_category_reach_length_weighted_mean,AGM,AGM,AGM,,True,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,ARB,ARB,ARB,,False,,,,,8.05855
+LEg,model_category_reach_length_weighted_mean,URB,URB,URB,,False,,,,,4.67639
+LEg,model_category_reach_length_weighted_mean,URBVEG,URBVEG,URBVEG,,True,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,MIN,MIN,MIN,,False,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,COA,COA,COA,,False,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,BARE,BARE,BARE,,False,,,,,0.0
+LEg,model_category_reach_length_weighted_mean,UNK,UNK,UNK,,False,,,,,0.0

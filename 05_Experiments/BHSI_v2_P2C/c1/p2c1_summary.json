@@ -1,0 +1,48 @@
+{
+ "total_km": 82669.76536596143,
+ "eligible_km": 71629.86351928947,
+ "eligible_pct": 86.64578059729496,
+ "eligible_fragments": 76082,
+ "excluded_fragments": 29849,
+ "catchments_total": 107,
+ "catchments_reportable": 105,
+ "catchments_partial_flag": 4,
+ "not_assessable": [
+  "Humber Estuary",
+  "Your Tidal Thames"
+ ],
+ "border": {
+  "fragments_lt_1m": 1330,
+  "km_fragments_lt_1m": 0.31959389125103665,
+  "pieces_cut": 2739,
+  "pieces_with_gt1_fragment": 2629
+ },
+ "inherited_overlap_m_total": 1597.7481185403863,
+ "inherited_overlap_m_both_eligible": 422.572353529506,
+ "sens_threshold_5km_catchments": 105,
+ "sens_threshold_25km_catchments": 101,
+ "seconds": 135.52625107765198,
+ "all_checks_pass": true,
+ "inputs": {
+  "phase1_network": {
+   "path": "05_Experiments/BHSI_v2_Phase1/native_001/canonical_native_rivers.gpkg",
+   "sha256": "08391c584ed769c99e80424131637ea540fc007d105065c592bfc5062ee01075"
+  },
+  "os_open_rivers": {
+   "path": "01_BHSI_v1_Frozen/source_snapshot/data/Rivers/Data/oprvrs_gb.gpkg",
+   "sha256": "81fbe8d88396a8d45ab29a9ee14468aa41a325c57fe68d16e9b48ed06daa0644"
+  },
+  "ons_countries": {
+   "path": "05_Experiments/BHSI_v2_P2B/data_raw/ons_countries/ctry23_BFC_EW_27700.geojson",
+   "sha256": "9a827dabc6af3e91594f75f3ab59aa686fcf23efbdfc08c2a35d203b29719653"
+  },
+  "caba_catchments": {
+   "path": "01_BHSI_v1_Frozen/source_snapshot/data/Beavers/Wild_Beaver_Catchments_England_-2509696373757772249.geojson",
+   "sha256": "0275113e0bc83c1d2804711a72d904c157472fd50c57abc1c3aef9c18a6e0d3f"
+  },
+  "catchments_107": {
+   "path": "05_Experiments/P1_5_Portability/script/catchments_107.csv",
+   "sha256": "165e6ae420a0859b0c7f681a30a5dfb9f6f55c631f6fcfdfb8dd46a49aef52ce"
+  }
+ }
+}

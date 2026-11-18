@@ -1,0 +1,241 @@
+{
+ "provenance": {
+  "pilot_selection_md_sha256": "833c855f8f97d95bac7b96b9ad4ea4253d86541282e2a23fd6979ebf44dc891d",
+  "class_table_sha256": "c44dcdac74abb6408a3a3397b5284df39c7da836969ed36f46e3a7246be889f0",
+  "pilot_catchment": 19
+ },
+ "raster": {
+  "rows": 8919,
+  "cols": 5163,
+  "res_m": 10.0,
+  "origin_x": 399580.0,
+  "origin_y_top": 401730.0,
+  "margin_m": 3000.0
+ },
+ "n_reaches": 781,
+ "eligible_km": 749.9839990419861,
+ "union_support_km2": 59.0672,
+ "centreline_px": 94556,
+ "le_segments": 263957,
+ "clc_polygons": 2232,
+ "clc_invalid_fixed": 1,
+ "le_nodata_px_in_domain": 0,
+ "corine_nodata_px_in_domain": 0,
+ "zero_denominator_reaches": {
+  "C": 2,
+  "LEn": 0,
+  "LEg": 0
+ },
+ "zero_denominator_km": {
+  "C": 0.04293680421922815,
+  "LEn": 0.0,
+  "LEg": 0.0
+ },
+ "validation_raster_vs_vector": {
+  "mean": {
+   "C": 0.6882663574414182,
+   "LEn": 0.8488351732398169
+  },
+  "median": {
+   "C": 0.5316580332255905,
+   "LEn": 0.5970328212611802
+  },
+  "max": {
+   "C": 3.9350939344479445,
+   "LEn": 3.935093934449303
+  }
+ },
+ "validation_raster_vs_vector_covered_ratio": {
+  "mean": {
+   "C": 1.0001568617724355,
+   "LEn": 1.0001568619288377
+  },
+  "min": {
+   "C": 0.9738420118498476,
+   "LEn": 0.973842011849853
+  },
+  "max": {
+   "C": 1.0393509393444795,
+   "LEn": 1.0393509393444935
+  }
+ },
+ "agreement": {
+  "C|LEn|buffer_union": {
+   "n_total_px": 590672,
+   "n_common_known_land_px": 567748,
+   "agreement": 0.42866729605388304,
+   "kappa": 0.2845701068992621,
+   "woody_binary_agreement": 0.7376388820392146,
+   "water_in_first_only_pct": 0.34638513422000705,
+   "water_in_second_only_pct": 3.140490830782566,
+   "water_in_both_pct": 0.2556410325866132,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.14387072037371212
+  },
+  "C|LEn|centreline": {
+   "n_total_px": 94556,
+   "n_common_known_land_px": 88394,
+   "agreement": 0.3566305405344254,
+   "kappa": 0.2209603243731512,
+   "woody_binary_agreement": 0.6486978754214087,
+   "water_in_first_only_pct": 0.153348280384111,
+   "water_in_second_only_pct": 5.792334701129489,
+   "water_in_both_pct": 0.397647954651212,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.18518936742022177
+  },
+  "C|LEg|buffer_union": {
+   "n_total_px": 590672,
+   "n_common_known_land_px": 583557,
+   "agreement": 0.584657539880423,
+   "kappa": 0.43061181599945975,
+   "woody_binary_agreement": 0.9071093312221429,
+   "water_in_first_only_pct": 0.41156513259473954,
+   "water_in_second_only_pct": 0.6025340628978519,
+   "water_in_both_pct": 0.1904610342118807,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.0
+  },
+  "C|LEg|centreline": {
+   "n_total_px": 94556,
+   "n_common_known_land_px": 93472,
+   "agreement": 0.5800132660047929,
+   "kappa": 0.42420142277815476,
+   "woody_binary_agreement": 0.906057428962684,
+   "water_in_first_only_pct": 0.4209145902956978,
+   "water_in_second_only_pct": 0.5954143576293414,
+   "water_in_both_pct": 0.1300816447396252,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.0
+  },
+  "LEn|LEg|buffer_union": {
+   "n_total_px": 590672,
+   "n_common_known_land_px": 566643,
+   "agreement": 0.6096395790647727,
+   "kappa": 0.46913390709205266,
+   "woody_binary_agreement": 0.7613170903020068,
+   "water_in_first_only_pct": 3.13659696074979,
+   "water_in_second_only_pct": 0.5334601944903432,
+   "water_in_both_pct": 0.25953490261938944,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.14415087556677905
+  },
+  "LEn|LEg|centreline": {
+   "n_total_px": 94556,
+   "n_common_known_land_px": 88167,
+   "agreement": 0.539067905225311,
+   "kappa": 0.4014817253952278,
+   "woody_binary_agreement": 0.6889766012226797,
+   "water_in_first_only_pct": 5.857904310673041,
+   "water_in_second_only_pct": 0.39341765726130545,
+   "water_in_both_pct": 0.33207834510766104,
+   "unknown_or_nocov_in_either_pct_of_non_water": 0.1856652817244229
+  }
+ },
+ "grain_control_cycles": [
+  {
+   "cycle": 1,
+   "frac_changed_by_width_step": 0.2067022076602783,
+   "frac_changed_by_sieve_step": 0.1697464756788326,
+   "frac_changed_vs_previous": 0.3108529632163898
+  },
+  {
+   "cycle": 2,
+   "frac_changed_by_width_step": 0.0025584598876708985,
+   "frac_changed_by_sieve_step": 0.0014506133569569689,
+   "frac_changed_vs_previous": 0.0039929816190420785
+  },
+  {
+   "cycle": 3,
+   "frac_changed_by_width_step": 0.000569026808669942,
+   "frac_changed_by_sieve_step": 0.0003009199132824252,
+   "frac_changed_vs_previous": 0.0008690997942899573
+  },
+  {
+   "cycle": 4,
+   "frac_changed_by_width_step": 0.00010627856358549388,
+   "frac_changed_by_sieve_step": 7.025156379220939e-05,
+   "frac_changed_vs_previous": 0.00017653012737770327
+  },
+  {
+   "cycle": 5,
+   "frac_changed_by_width_step": 2.4582618303796298e-05,
+   "frac_changed_by_sieve_step": 3.6787063080062656e-05,
+   "frac_changed_vs_previous": 6.136968138385895e-05
+  }
+ ],
+ "corine_G25_cycles": [
+  {
+   "cycle": 1,
+   "frac_changed_by_width_step": 0.004490562478754874,
+   "frac_changed_by_sieve_step": 0.0037397719640754135,
+   "frac_changed_vs_previous": 0.008122383740013882
+  },
+  {
+   "cycle": 2,
+   "frac_changed_by_width_step": 0.0009116199061617179,
+   "frac_changed_by_sieve_step": 0.00048674452885272984,
+   "frac_changed_vs_previous": 0.0013955196267125068
+  },
+  {
+   "cycle": 3,
+   "frac_changed_by_width_step": 0.0001736418868879463,
+   "frac_changed_by_sieve_step": 0.00011429180223752642,
+   "frac_changed_vs_previous": 0.0002879336891254727
+  }
+ ],
+ "corine_changed_by_G25_frac_domain": 0.009679058499617265,
+ "corine_changed_by_G25_frac_buffer_union": 0.013511729013733511,
+ "patch_statistics": {
+  "CORINE": {
+   "n_patches": 620,
+   "patches_per_100km2": 42.91437025757274,
+   "median_patch_ha": 47.64,
+   "p10_ha": 2.0870000000000006,
+   "p90_ha": 248.28100000000003,
+   "share_of_area_in_patches_lt_25ha_pct": 0.5055935766878066,
+   "narrow_fraction_r5_pct": 0.5587589440988414
+  },
+  "LE native": {
+   "n_patches": 19442,
+   "patches_per_100km2": 1345.711591206015,
+   "median_patch_ha": 1.05,
+   "p10_ha": 0.26,
+   "p90_ha": 6.3,
+   "share_of_area_in_patches_lt_25ha_pct": 28.16688152692098,
+   "narrow_fraction_r5_pct": 19.384981700828003
+  },
+  "LE-G25": {
+   "n_patches": 539,
+   "patches_per_100km2": 37.30781543359953,
+   "median_patch_ha": 39.46,
+   "p10_ha": 1.8300000000000003,
+   "p90_ha": 195.21199999999993,
+   "share_of_area_in_patches_lt_25ha_pct": 0.4358577250192509,
+   "narrow_fraction_r5_pct": 0.07837409910104777
+  },
+  "CORINE after G25": {
+   "n_patches": 593,
+   "patches_per_100km2": 41.04551864958167,
+   "median_patch_ha": 48.34,
+   "p10_ha": 2.8600000000000003,
+   "p90_ha": 242.2140000000006,
+   "share_of_area_in_patches_lt_25ha_pct": 0.45517611330778085,
+   "narrow_fraction_r5_pct": 0.08865278294499866
+  }
+ },
+ "spatial_autocorrelation": {
+  "C_LEn_disagree_frac": {
+   "morans_I_knn8": 0.23573872504364857,
+   "p_perm_999": 0.001
+  },
+  "C_LEg_disagree_frac": {
+   "morans_I_knn8": 0.26930583614517667,
+   "p_perm_999": 0.001
+  },
+  "C_score_lo": {
+   "morans_I_knn8": 0.5563293376284759,
+   "p_perm_999": 0.001
+  },
+  "LEn_score_lo": {
+   "morans_I_knn8": 0.31247800514209195,
+   "p_perm_999": 0.001
+  }
+ },
+ "seconds": 1270.2618827819824
+}

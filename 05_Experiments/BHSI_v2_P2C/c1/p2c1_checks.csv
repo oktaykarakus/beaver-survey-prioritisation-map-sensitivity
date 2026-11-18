@@ -1,0 +1,13 @@
+check,passed,value,tolerance
+"length conservation, total (m)",True,-1.6391277313232422e-07,<1e-3 m on 82.7e6 m
+"length conservation, max per-parent abs deviation (m)",True,8.454662747681141e-09,<1e-4 m
+every parent piece has >=1 fragment,True,0,
+"fragment geometries valid, non-empty, LineString, positive",True,105931,
+fragment ids unique,True,105931,
+catchment id inherited unchanged (1 per parent),True,1,
+"eligible geometry inside England (length outside, m)",True,"{""fragments_not_exactly_covered"": 2957, ""length_outside_m"": 2.8791865337543776e-07}",<0.01 m in total
+fragment midpoint inside assigned catchment polygon (1 m),True,"{""inside_pct"": 100.0, ""outside_n"": 0, ""outside_km"": 0.0}",>99.99%
+"no NEW collinear overlap created by P2-C1 (fragment overlap - Phase 1 parent overlap, m; 5 mm buffer, pairs >0.5 m)",True,"{""parent_overlap_m"": 1597.748118540386, ""parent_pairs"": 33, ""fragment_overlap_m"": 1597.7481185403863, ""fragment_pairs"": 35, ""of_which_both_eligible_m"": 422.572353529506, ""candidate_pairs_checked"": 137753}",
+"eligible length >= 95% of P2B midpoint reference 71,632.7 km (NO-GO trigger is >5% change)",True,71629.86351928947,
+per-catchment total equals Phase 1 catchment length (max abs km),True,5.60476109967567e-11,<1e-6 km
+"catchment table partitions every catchment (components sum to total, max abs km)",True,2.2737367544323206e-13,

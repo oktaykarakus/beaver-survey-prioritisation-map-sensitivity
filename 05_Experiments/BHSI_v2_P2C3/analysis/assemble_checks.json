@@ -1,0 +1,31 @@
+{
+ "n_reaches": 76082,
+ "unique": true,
+ "set_equal_C1": true,
+ "eligible_km": 71629.86351928946,
+ "eligible_km_diff_vs_71629.864": -1.4551915228366852e-11,
+ "catchments": 105,
+ "max_catchment_km_diff": 4.985665782442084e-07,
+ "tiles": 78,
+ "reaches_per_tile_match_plan": true,
+ "gradient_missing": 0,
+ "B20_units": 76082,
+ "B20_km_diff": 0.0,
+ "B100_units": 76082,
+ "B100_km_diff": 0.0,
+ "S1000_units": 119205,
+ "S1000_km_diff": 0.0,
+ "S500_units": 187398,
+ "S500_km_diff": 1.4551915228366852e-11,
+ "tile_seconds_total": 26753.068423748016,
+ "tile_seconds_by_step": {
+  "rasterise": 1972.811487197876,
+  "grain_control": 22977.096623897552,
+  "units": 1626.370914697647,
+  "pooled": 156.49452424049377
+ },
+ "grain_control_cycles_max": 5,
+ "grain_control_last_change_max": 0.0003133067994787695,
+ "le_nodata_px_total": 984941576,
+ "code_hash": "23f5dbbad31e4c9129f1db0d0c1938225c754b5317ffbefa0814786cd42c82b7"
+}
