@@ -1,0 +1,79 @@
+{
+  "phase": "BHSI-v2 Phase1",
+  "frozen_before_execution_utc": "2026-11-07T16:46:48.180870+00:00",
+  "geometry_levels": {
+    "G0": "legacy spatial join, first source-id catchment; complete source lines",
+    "G1": "clip/explode; preserve pieces; shared boundary assigned lowest numeric CaBA_ID"
+  },
+  "support_levels": {
+    "S0": "geology intersection only, historical accounting control",
+    "S1": "intersection plus explicit uncovered geometry, full network preserved"
+  },
+  "corine_levels": {
+    "C0": "historical first intersection, unmatched zero; diagnostic control only",
+    "C1": "area composition; unknown area explicit; known-only point summary labelled conditional"
+  },
+  "geology_levels": {
+    "U0": "historical rules; unmapped drift .5 diagnostic only",
+    "U1": "unmapped/unrecognised unknown, bounds0\u20131; omitted primary candidate"
+  },
+  "buffer_m": 40,
+  "gradient_thresholds_percent": [
+    6,
+    12,
+    15
+  ],
+  "climate": "raster masked mean \u00d7 metadata scale + metadata offset; error stops; no valid pixels unknown",
+  "hydrology": "WFD15m match coverage only; omit unsupported permanence from primary",
+  "primary_models": {
+    "equal": [
+      0.5,
+      0.5
+    ],
+    "forage_dominant": [
+      0.75,
+      0.25
+    ],
+    "restricted_literature": [
+      0.5555555555555556,
+      0.4444444444444444
+    ]
+  },
+  "native_feature_order": [
+    "riparian_corine",
+    "gradient"
+  ],
+  "weight_status": "normative sensitivity settings, not calibrated ecological weights",
+  "six_feature_order": [
+    "index_corine",
+    "index_drainage",
+    "index_hydrology",
+    "index_gradient",
+    "index_climate",
+    "index_geology"
+  ],
+  "literature_weights": [
+    0.25,
+    0.15,
+    0.2,
+    0.2,
+    0.1,
+    0.1
+  ],
+  "pca": "signed frozen transform for clean attribution; separately label refit and positive-share diagnostics",
+  "unknown_policy": "lower/upper0\u20131 envelopes, no midpoint imputation; conditional known-only ranking explicitly not truth",
+  "rank_method": "descending min; top5 stable sort score then CaBA_ID",
+  "numerical_tolerances": {
+    "length_relative": 1e-08,
+    "feature_absolute": 1e-10,
+    "area_fraction": 1e-08
+  },
+  "phase2_not_run": "12-cell reach/catchment allocation, finer-vegetation comparison and independent evaluation require next gate",
+  "survey_budget_conventions_future": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "future_practical_turnover_convention": 0.1,
+  "seed": 20261107
+}

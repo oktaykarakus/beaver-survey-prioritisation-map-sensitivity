@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or data, please cite it as below. The associated
+  manuscript has not yet been published; once it is, please cite the article.
+type: software
+title: >-
+  Same Rivers, Different Priorities: How Environmental Maps Shape
+  Conservation Decisions — reproducibility code and data
+abstract: >-
+  Analysis code, derived data and figure/table scripts for a national-scale
+  study of how the choice of land-cover representation (CORINE Land Cover
+  2018 and Living England Phase IV, native and grain-controlled) changes
+  fixed-budget river-survey prioritisation for a forage-oriented Eurasian
+  beaver indicator across 76,082 eligible river reaches in 105 English
+  catchments.
+authors:
+  - given-names: Grace
+    family-names: David
+    affiliation: >-
+      Department of Earth and Environmental Sciences, Cardiff University,
+      Cardiff, UK
+  - given-names: Oktay
+    family-names: Karakuş
+    affiliation: >-
+      Department of Earth and Environmental Sciences and Department of
+      Computer Science and Informatics, Cardiff University, Cardiff, UK
+  - given-names: Can
+    family-names: Eyüpoğlu
+    affiliation: >-
+      Department of Computer Science and Informatics, Cardiff University,
+      Cardiff, UK; Department of Computer Engineering, Turkish Air Force
+      Academy, National Defence University, Istanbul, Türkiye
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - land-cover representation
+  - conservation prioritisation
+  - decision robustness
+  - spatial grain
+  - river networks
+  - model-based regret
+  - Castor fiber
