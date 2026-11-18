@@ -22,4 +22,7 @@ The Open Government Licence v3.0 is at https://www.nationalarchives.gov.uk/doc/o
 
 ## Code
 
+This licence applies to the source code. Data files are licensed separately;
+see DATA_LICENSE.md.
+
 The source code is released under the MIT License; see `LICENSE`.
